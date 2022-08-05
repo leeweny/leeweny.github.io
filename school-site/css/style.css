@@ -85,6 +85,7 @@ header, footer {
     font-weight: normal;
     font-style: normal;
 }     
+
 @font-face {
     font-family:montserratReg;
     src: url(../fonts/montserrat-regular.ttf);
@@ -93,10 +94,11 @@ header, footer {
 }
 
 
-
 /* Typography Styles */
 
-html {}
+html {
+    font-family: montserratReg, Arial, sans-serif;
+}
 
 h1{
     font-size:3.75rem;
@@ -108,37 +110,31 @@ h1{
 
 h2 {
     font-size:1.5rem;
-    font-family:josefinslabReg, Arial, serif;
-    
+    font-family:josefinslabReg, Arial, serif;   
 }
 
 h2 + p {
     font-size:.75rem;
     letter-spacing: .031rem;
     word-spacing: .125rem;
-    text-indent: 1.5rem;
-    font-family: montserratReg, Arial, sans-serif;
+    text-indent: 1.5rem;   
 }
 
 p {
     font-size:.75rem;
     letter-spacing: .031rem;
-    word-spacing: .125rem;
-    font-family: montserratReg, Arial, sans-serif;
+    word-spacing: .125rem;    
 }
 
 li {
     font-size:.75rem;
     letter-spacing: .031rem;
-    word-spacing: .125rem;
-    font-family: montserratReg, Arial, sans-serif;
-
+    word-spacing: .125rem;    
 }
 
 figcaption {
     font-size:.75rem;
-    margin-bottom: 2rem;
-    font-family: montserratReg, Arial, sans-serif;
+    margin-bottom: 2rem;    
 }
 
 
@@ -146,7 +142,6 @@ figcaption {
 
 a {
     outline: none;
-    font-family: montserratReg, Arial, sans-serif;
 }  
 
 a:link, a:visited {
