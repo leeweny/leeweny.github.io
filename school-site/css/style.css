@@ -80,68 +80,142 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    
-}
-       
-
-
+    font-family:josefinslabReg;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}     
 @font-face {
-   
+    font-family:montserratReg;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 
 /* Typography Styles */
 
 html {}
 
-h1 {}
+h1{
+    font-size:3.75rem;
+    margin:1.125rem;
+    letter-spacing: 0.125rem;
+    font-family:josefinslabReg, Arial, serif;
+    text-align:center;
+}
 
-h2 {}
+h2 {
+    font-size:1.5rem;
+    font-family:josefinslabReg, Arial, serif;
+    
+}
 
-h2 + p {}
+h2 + p {
+    font-size:.75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+    text-indent: 1.5rem;
+    font-family: montserratReg, Arial, sans-serif;
+}
 
-p {}
+p {
+    font-size:.75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+    font-family: montserratReg, Arial, sans-serif;
+}
 
-li{}
+li {
+    font-size:.75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+    font-family: montserratReg, Arial, sans-serif;
 
-figcaption {}
+}
+
+figcaption {
+    font-size:.75rem;
+    margin-bottom: 2rem;
+    font-family: montserratReg, Arial, sans-serif;
+}
 
 
 /* Link Styling */
 
-a {}
+a {
+    outline: none;
+    font-family: montserratReg, Arial, sans-serif;
+}  
 
-a:link,
-a:visited {}
+a:link, a:visited {
+    color: #33658A;  
+}
 
-a:focus,
-a:hover {}
-
+a:focus, a:hover {
+    text-decoration: none;
+}
 
 /* List Styling */
 
-ul {}
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: square;
+}
 
-ol {}
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    list-style-type: lower-alpha;
+}
 
-.long-list a:hover {}
+.long-list a:hover {
+    text-transform: capitalize;
+}
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin-top: .25rem;
+}
 
-nav a {}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height:3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-width: .063rem;
+    border-color: #33658A;          
+}
 
-nav a:focus,
-nav a:hover {}
+nav a:focus, nav a:hover { 
+    color: #FFF;
+    background-color: #33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
