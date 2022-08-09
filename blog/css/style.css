@@ -1,0 +1,167 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+
+
+/* header and footer */
+
+header, footer {
+    
+  }
+
+/* Typography Styles */
+
+html {
+    font-family: montserratReg, Arial, sans-serif;
+}
+
+h1{
+    font-size:3.75rem;
+    margin:1.125rem;
+    letter-spacing: 0.125rem;
+    font-family:josefinslabReg, Arial, serif;
+    text-align:center;
+}
+
+h1 span {
+    color:#8C2B3F;
+}
+
+h2{
+    padding-top: 3rem;
+    margin:0rem;
+    letter-spacing: 0.125rem;
+    text-align:left;
+}
+
+h3{
+    margin:0rem;
+    letter-spacing: 0.125rem;
+    text-align:left;
+}
+
+p {
+    font-size:1rem;
+    letter-spacing: normal;
+    word-spacing: normal;    
+}
+
+/* Link Styling */
+
+a {
+    outline: none;
+}  
+
+a:link, a:visited {
+    color: #33658A;  
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+/* Navigation Menu */
+
+nav {
+    margin-top: .25rem;
+    border-top: .2rem solid #33658A;
+    border-bottom: .2rem solid #33658A;
+    word-spacing: 3rem;
+    text-align: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    display: inline;
+    width: 100%;
+    line-height:3;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-style: solid;
+    border-width: .063rem;
+    border-color: #33658A;  
+    letter-spacing: .25rem;        
+}
+
+nav a:focus, nav a:hover { 
+    color: #FFF;
+    background-color: #33658A;
+}
+
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
+
+/* Button */
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.button1 {
+    background-color: #804000;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+ 
+ 
+  
+ 
